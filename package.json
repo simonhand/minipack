@@ -1,0 +1,20 @@
+{
+  "name": "zlpack",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "pack": "node ./zlpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.5.0",
+    "@babel/traverse": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
